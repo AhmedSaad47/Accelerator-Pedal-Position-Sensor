@@ -1,5 +1,7 @@
 # Accelerator-Pedal-Position-Sensor
 
+USING MBD( MODEL-BASED-DEVELOPMENT) APPROACH 
+
  Case Study : Accelerator Pedal Position Sensor 
 The accelerator pedal position sensor is a critical component in modern automotive systems, providing input to the engine control unit (ECU) about the driver's intended acceleration. 
 
@@ -61,7 +63,7 @@ where
  
  ○ More Than 4.5 V 
 
-● It is required to implement a decision logic to determine.
+It is required to implement a decision logic to determine.
 
  ○ APP_bSensor1Failure
  
