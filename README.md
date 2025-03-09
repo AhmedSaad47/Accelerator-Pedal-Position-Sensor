@@ -39,14 +39,23 @@ where
  # Modeling Decision Logic System Using Simulink Blocks 
  
  The two sensor signals provide different readings, hence the engine ECU can perform a coherency check to determine the validity of the sensor signal
+ 
  ● Accelerator pedal position sensor 1 
+ 
    ○ Not Pressed is 0.5 V 
+   
    ○ Pressed is 4.5 V 
+   
 ● Accelerator pedal position sensor 2 
+
   ○ Not Pressed is 4.5 V 
+  
   ○ Pressed is 0.5 V 
+  
 ● Invalid range 
+
  ○ Less Than 0.5 V
+ 
  ○ More Than 4.5 V 
 
 ● It is required to implement a decision logic to determine.
