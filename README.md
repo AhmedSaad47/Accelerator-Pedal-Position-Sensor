@@ -2,18 +2,29 @@
 
  Case Study : Accelerator Pedal Position Sensor 
 The accelerator pedal position sensor is a critical component in modern automotive systems, providing input to the engine control unit (ECU) about the driver's intended acceleration. 
+
 Developing an algebraic model for this sensor is crucial for accurately translating pedal position into a corresponding signal for the ECU.
+
 Accelerator Pedal: The physical pedal that the driver interacts with.
+
 Sensor Mechanism: Converts the pedal's mechanical movement into an electrical signal.
+
 Signal Processing Unit: Part of the ECU that interprets the sensor signal.
+
 The aim is to model dual potentiometer accelerator pedal sensor as a simulink block diagram. 
-1. INPUT : Accelerator Pedal Position 
-2. OUTPUT : Potentiometer Voltage 
+
+1. INPUT : Accelerator Pedal Position
+   
+2. OUTPUT : Potentiometer Voltage
+   
   a. range [0 ….  5] V
+  
   b. valid range [0.5 …. 4.5] V
+  
   c. invalid range 
     i. Less than 0.5 (probable short circuit to ground) 
-    ii. More than 4.5 (probable short circuit to power supply) 
+    ii. More than 4.5 (probable short circuit to power supply)
+    
 Note: 
  ● Pedal not pressed at 0.5 V.
  ● Pedal pressed at 4.5 V. 
