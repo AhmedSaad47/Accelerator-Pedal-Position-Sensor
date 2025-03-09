@@ -50,18 +50,27 @@ where
  ○ More Than 4.5 V 
 
 ● It is required to implement a decision logic to determine.
+
  ○ APP_bSensor1Failure
+ 
    ■ Sensor 1 reading is invalid 
+   
  ○ APP_bSensor1Failure 
+ 
    ■ Sensor 2 reading is invalid 
+   
  ○ APP_bCoherencyFailure 
+ 
    ■ The reading from sensor 1 & sensor 2 are not coherent
 
-We are going to do 3 test scenarioes:
+we will do a MIL test with the following 3 test scenarios:
 
    Scenario 1: APP_vSensor1: 0.5 v – 4.5 V  && APP_vSensor2: 4.5 v – 0.5 V 
-   Scenario 2: APP_vSensor1: 0 v – 4.5 V  && APP_vSensor2: 4.5 v – 0.5 V
-   Scenario 3: APP_vSensor1: 0.5 v – 4.5 V  && APP_vSensor2: 5 v – 0.5 V 
    
+   Scenario 2: APP_vSensor1: 0 v – 4.5 V  && APP_vSensor2: 4.5 v – 0.5 V
+   
+   Scenario 3: APP_vSensor1: 0.5 v – 4.5 V  && APP_vSensor2: 5 v – 0.5 V 
+
 After that we are going to generate a C code from this model for an atmel AVR microcontroller.
- 
+
+then we can do the SIL test to confirm.
