@@ -2,7 +2,8 @@
 
 USING MBD (MODEL-BASED-DEVELOPMENT) APPROACH 
 
- Case Study : Accelerator Pedal Position Sensor 
+Case Study : Accelerator Pedal Position Sensor 
+ 
 The accelerator pedal position sensor is a critical component in modern automotive systems, providing input to the engine control unit (ECU) about the driver's intended acceleration. 
 
 Developing an algebraic model for this sensor is crucial for accurately translating pedal position into a corresponding signal for the ECU.
