@@ -31,9 +31,12 @@ Note:
  ● Linear relationship between input and output.
 
 Let P represent the pedal position.
+
 Let S represent the sensor output voltage.
+
 The relationship between pedal position and sensor output can be modeled using a linear equation: S=mP+b
 where
+
  m is the slope (sensitivity) and b is the y-intercept
  
  # Modeling Decision Logic System Using Simulink Blocks 
